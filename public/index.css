@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "SF Pro Regular";
+    src: url("./Fonts/SFPRODISPLAYREGULAR.OTF");
+  }
+
+/*   @font-face {
+    font-family: "SF Pro Bold";
+    src: url(./src/Fonts/SFPRODISPLAYBOLD.OTF);
+  } */
+
+* {
+    -webkit-tap-highlight-color: transparent;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: "SF Pro Regular";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility !important;
+
+    object-fit: cover;
+    color:  white;
+  }
+
+
+
+
+
+html{
+    background-color: #e5422d;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-color: #000; */
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #e5422d;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5%;
+  width: 100%;
+  height:100px;
+}
+
+.header img{
+    height: 60%;
+}
+
+.logo {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-field {
+  height: 55px;
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+
+  font-size: 22px;
+}
+
+.sign-up-button {
+  height: 45px;
+  width: 300px;
+  margin-top: 10px;
+  background-color: #444;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.sign-up-button:hover {
+  background-color: #555;
+}
